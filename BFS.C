@@ -10,8 +10,6 @@ typedef struct node node;
 typedef struct node* nodes;
 typedef struct Graph graph;
 typedef struct Graph* graphs;
-typedef struct arc arc;
-typedef struct arc* arcs;
 
 struct node
 {
