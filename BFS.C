@@ -186,13 +186,13 @@ int main()
 
     graphs GR = createGraph(6);
     
-    addGraph(GR, 0, 1);
-    addGraph(GR, 0, 2);
-    addGraph(GR, 0, 3);
-    addGraph(GR, 0, 4);
-    addGraph(GR, 4, 3);
-    addGraph(GR, 4, 6);
-    addGraph(GR, 5, 6);    
+    addEdge(GR, 0, 1);
+    addEdge(GR, 0, 2);
+    addEdge(GR, 0, 3);
+    addEdge(GR, 0, 4);
+    addEdge(GR, 4, 3);
+    addEdge(GR, 4, 6);
+    addEdge(GR, 5, 6);    
 
     bfs(GR, 0);
     printGraph(GR);
